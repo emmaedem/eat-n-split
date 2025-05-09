@@ -73,11 +73,14 @@ body {
   background-color: var(--color-lightest);
 }
 
+
+
 .sidebar li img {
   border-radius: 50%;
   width: 100%;
   grid-row: span 2;
 }
+
 
 .sidebar li h3 {
   grid-row: 1;
@@ -118,11 +121,13 @@ form {
 }
 
 .form-add-friend {
+ 
   grid-template-columns: 1fr 1.5fr;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
 .form-split-bill {
+  
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
 }
